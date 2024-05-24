@@ -1,6 +1,11 @@
 {
   "name": "hardhat-project",
+  "scripts": {
+    "deploy": "./bin/deploy.sh",
+    "deploy:all": "./bin/deployAll.sh"
+  },
   "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.4",
     "@nomicfoundation/hardhat-ignition-ethers": "^0.15.4",
     "@nomicfoundation/hardhat-network-helpers": "^1.0.10",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
